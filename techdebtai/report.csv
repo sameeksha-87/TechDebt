@@ -1,0 +1,390 @@
+path,nloc,n_functions,avg_ccn,max_ccn,avg_params,max_func_nloc,todo_count,fan_in,fan_out,n_commits,n_authors,top_author_share,churn,churn_per_commit,commits_90d,bug_fixes,bug_fix_ratio,age_days,days_since_change,risk,debt_score,suggestions
+src/black/linegen.py,2116,86,9.732558139534884,83,2.255813953488372,169,1,1,17,79,41,0.16455696202531644,3477,44.0126582278481,47.0,33.0,0.4177215189873418,590.0438194444445,0.9556597222222222,0.45,98.9,"Very complex function (max cyclomatic complexity 83): split it up, use guard clauses / strategy pattern. | Long function (169 lines): extract smaller, single-purpose functions. | Large file (2116 lines): split by responsibility into modules. | Depends on many modules (17): reduce coupling, apply dependency inversion. | Change hotspot (3477 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (33): add regression tests, do a root-cause review. | Many authors (41) with diffuse ownership: assign an owner, document conventions."
+tests/test_black.py,3827,241,1.5684647302904564,9,1.2489626556016598,100,0,0,40,59,34,0.11864406779661017,4815,81.61016949152543,28.0,12.0,0.2033898305084746,590.0438194444445,0.005185185185185185,0.442,88.3,"Long function (100 lines): extract smaller, single-purpose functions. | Large file (3827 lines): split by responsibility into modules. | Depends on many modules (40): reduce coupling, apply dependency inversion. | Change hotspot (4815 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (12): add regression tests, do a root-cause review. | Many authors (34) with diffuse ownership: assign an owner, document conventions."
+src/black/trans.py,1465,67,7.641791044776119,33,2.0597014925373136,120,1,2,15,28,22,0.14285714285714285,3203,114.39285714285714,15.0,11.0,0.39285714285714285,590.0438194444445,1.0507060185185184,0.428,98.1,"Very complex function (max cyclomatic complexity 33): split it up, use guard clauses / strategy pattern. | Long function (120 lines): extract smaller, single-purpose functions. | Large file (1465 lines): split by responsibility into modules. | Depends on many modules (15): reduce coupling, apply dependency inversion. | Change hotspot (3203 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (11): add regression tests, do a root-cause review. | Many authors (22) with diffuse ownership: assign an owner, document conventions."
+src/black/__init__.py,1535,38,9.631578947368421,68,3.5789473684210527,250,0,0,41,40,28,0.15,2359,58.975,19.0,6.0,0.15,590.0438194444445,1.3691782407407407,0.425,91.3,"Very complex function (max cyclomatic complexity 68): split it up, use guard clauses / strategy pattern. | Long function (250 lines): extract smaller, single-purpose functions. | Large file (1535 lines): split by responsibility into modules. | Depends on many modules (41): reduce coupling, apply dependency inversion. | Change hotspot (2359 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (6): add regression tests, do a root-cause review. | Many authors (28) with diffuse ownership: assign an owner, document conventions."
+src/black/comments.py,745,27,10.592592592592593,58,2.5555555555555554,117,0,5,9,42,24,0.11904761904761904,1844,43.904761904761905,18.0,23.0,0.5476190476190477,590.0438194444445,2.1580439814814816,0.412,95.0,"Very complex function (max cyclomatic complexity 58): split it up, use guard clauses / strategy pattern. | Long function (117 lines): extract smaller, single-purpose functions. | Large file (745 lines): split by responsibility into modules. | Many files depend on this (5): put a stable interface in front and add contract tests. | Change hotspot (1844 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (23): add regression tests, do a root-cause review. | Many authors (24) with diffuse ownership: assign an owner, document conventions."
+src/black/lines.py,1299,64,9.453125,82,1.578125,151,0,3,12,42,30,0.14285714285714285,2191,52.166666666666664,17.0,17.0,0.40476190476190477,590.0438194444445,4.1690046296296295,0.403,95.1,"Very complex function (max cyclomatic complexity 82): split it up, use guard clauses / strategy pattern. | Long function (151 lines): extract smaller, single-purpose functions. | Large file (1299 lines): split by responsibility into modules. | Change hotspot (2191 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (17): add regression tests, do a root-cause review. | Many authors (30) with diffuse ownership: assign an owner, document conventions."
+src/black/nodes.py,780,59,6.186440677966102,118,1.3728813559322033,180,0,11,8,21,15,0.14285714285714285,1308,62.285714285714285,6.0,4.0,0.19047619047619047,590.0438194444445,8.252835648148148,0.338,94.5,"Very complex function (max cyclomatic complexity 118): split it up, use guard clauses / strategy pattern. | Long function (180 lines): extract smaller, single-purpose functions. | Large file (780 lines): split by responsibility into modules. | Many files depend on this (11): put a stable interface in front and add contract tests. | Change hotspot (1308 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (4): add regression tests, do a root-cause review. | Many authors (15) with diffuse ownership: assign an owner, document conventions."
+src/black/ranges.py,490,25,5.88,23,1.88,73,0,3,7,15,13,0.13333333333333333,979,65.26666666666667,9.0,6.0,0.4,590.0438194444445,2.1434953703703705,0.321,93.2,"Very complex function (max cyclomatic complexity 23): split it up, use guard clauses / strategy pattern. | Long function (73 lines): extract smaller, single-purpose functions. | Change hotspot (979 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (6): add regression tests, do a root-cause review. | Many authors (13) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/standardize_type_comments.py,20,2,1.0,1,7.0,10,0,0,0,1,1,1.0,22,22.0,0.0,0.0,0.0,285.7744212962963,285.7744212962963,0.305,45.9,No major issues
+tests/data/cases/type_expansion.py,37,7,1.0,1,1.2857142857142858,5,0,0,0,2,2,0.5,62,31.0,0.0,1.0,0.5,389.1496064814815,285.7744212962963,0.272,59.4,No major issues
+tests/data/cases/fmtonoff.py,237,28,1.3571428571428572,4,1.2857142857142858,16,0,0,5,2,2,0.5,557,278.5,0.0,1.0,0.5,590.0438194444445,369.0451736111111,0.267,79.9,"Change hotspot (557 lines churned): stabilise the design, add tests before more edits."
+src/black/mode.py,329,5,2.8,5,1.4,33,0,16,6,41,23,0.24390243902439024,435,10.609756097560975,16.0,9.0,0.21951219512195122,590.0438194444445,7.998541666666667,0.261,90.0,"Many files depend on this (16): put a stable interface in front and add contract tests. | Change hotspot (435 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (9): add regression tests, do a root-cause review. | Many authors (23) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/funcdef_return_type_trailing_comma.py,176,29,1.0,1,1.4827586206896552,9,0,0,0,1,1,1.0,302,302.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.255,58.5,No major issues
+tests/data/cases/docstring2.py,24,20,1.0,1,0.0,2,0,0,0,1,1,1.0,104,104.0,0.0,0.0,0.0,285.7744212962963,285.7744212962963,0.252,49.6,No major issues
+tests/data/cases/import_line_collapse.py,88,12,1.0,1,0.0,5,0,0,2,1,1,1.0,179,179.0,0.0,0.0,0.0,285.7744212962963,285.7744212962963,0.248,58.6,No major issues
+scripts/generate_schema.py,55,2,7.0,12,1.5,29,0,0,4,3,2,0.6666666666666666,93,31.0,0.0,1.0,0.3333333333333333,590.0438194444445,406.35510416666665,0.248,77.6,"Very complex function (max cyclomatic complexity 12): split it up, use guard clauses / strategy pattern."
+tests/data/cases/module_docstring_after_comment.py,4,0,0.0,0,0.0,0,0,0,2,2,2,0.5,23,11.5,0.0,1.0,0.5,400.7926967592593,285.7744212962963,0.244,41.1,No major issues
+tests/data/cases/conditional_expression.py,151,8,3.75,5,1.25,10,0,0,0,1,1,1.0,204,204.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.241,66.2,No major issues
+tests/test_ipynb.py,543,44,1.0,1,0.5,45,0,0,9,7,6,0.2857142857142857,672,96.0,5.0,2.0,0.2857142857142857,590.0438194444445,1.0495949074074074,0.234,77.9,"Large file (543 lines): split by responsibility into modules. | Change hotspot (672 lines churned): stabilise the design, add tests before more edits. | Many authors (6) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/comments2.py,226,4,8.0,13,1.0,61,2,0,1,1,1,1.0,344,344.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.221,78.1,"Very complex function (max cyclomatic complexity 13): split it up, use guard clauses / strategy pattern. | Long function (61 lines): extract smaller, single-purpose functions."
+tests/data/cases/skip_magic_trailing_comma_generic_wrap.py,112,32,1.0,1,2.0,8,0,0,0,1,1,1.0,163,163.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.219,56.4,No major issues
+tests/data/cases/pyi_docstring_blank_lines.py,90,26,1.0,1,1.0769230769230769,1,0,0,2,1,1,1.0,164,164.0,0.0,0.0,0.0,144.89577546296297,144.89577546296297,0.218,56.3,No major issues
+tests/data/cases/fmtskip_class_header.py,36,2,1.0,1,2.0,6,0,0,0,1,1,1.0,47,47.0,0.0,0.0,0.0,171.34899305555555,171.34899305555555,0.217,49.3,No major issues
+tests/data/cases/multiline_strings.py,361,8,1.0,1,1.25,10,0,0,0,1,1,1.0,539,539.0,0.0,0.0,0.0,285.7744212962963,285.7744212962963,0.216,60.2,"Change hotspot (539 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/preview_simplify_power_operator_hugging.py,122,6,1.0,1,0.6666666666666666,3,0,0,0,1,1,1.0,153,153.0,0.0,0.0,0.0,280.9378125,280.9378125,0.216,54.7,No major issues
+tests/test_blackd.py,442,51,1.1176470588235294,4,1.0784313725490196,44,0,0,15,8,8,0.125,553,69.125,5.0,0.0,0.0,590.0438194444445,7.2043634259259255,0.209,75.2,"Depends on many modules (15): reduce coupling, apply dependency inversion. | Change hotspot (553 lines churned): stabilise the design, add tests before more edits. | Many authors (8) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/class_methods_new_line.py,182,30,1.0,1,1.0,2,0,0,0,1,1,1.0,270,270.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.208,55.9,No major issues
+tests/data/cases/generics_wrapping.py,235,40,1.0,1,2.55,25,0,0,0,1,1,1.0,307,307.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.208,60.2,No major issues
+tests/data/cases/function.py,172,19,1.5263157894736843,4,2.1052631578947367,21,0,0,4,1,1,1.0,244,244.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.204,69.6,No major issues
+tests/data/cases/return_annotation_brackets.py,138,40,1.0,1,1.0,9,0,0,0,1,1,1.0,219,219.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.203,57.5,No major issues
+tests/data/cases/docstring_no_string_normalization.py,61,37,1.0,1,0.05405405405405406,2,0,0,0,1,1,1.0,250,250.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.201,53.9,No major issues
+tests/data/miscellaneous/decorators.py,87,29,1.0,1,0.0,2,0,0,0,1,1,1.0,182,182.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.2,53.9,No major issues
+tests/data/cases/composition_no_trailing_comma.py,330,8,2.25,5,1.0,79,0,0,0,2,2,0.5,371,185.5,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.199,71.8,"Long function (79 lines): extract smaller, single-purpose functions. | Change hotspot (371 lines churned): stabilise the design, add tests before more edits."
+src/black/handle_ipynb_magics.py,284,21,3.9523809523809526,9,1.4761904761904763,25,0,3,15,8,7,0.25,587,73.375,4.0,2.0,0.25,590.0438194444445,1.0495949074074074,0.198,90.5,"Depends on many modules (15): reduce coupling, apply dependency inversion. | Change hotspot (587 lines churned): stabilise the design, add tests before more edits. | Many authors (7) with diffuse ownership: assign an owner, document conventions."
+src/black/strings.py,293,19,5.052631578947368,16,1.4210526315789473,48,1,5,9,16,12,0.1875,555,34.6875,5.0,3.0,0.1875,590.0438194444445,5.802557870370371,0.198,95.8,"Very complex function (max cyclomatic complexity 16): split it up, use guard clauses / strategy pattern. | Many files depend on this (5): put a stable interface in front and add contract tests. | Change hotspot (555 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (3): add regression tests, do a root-cause review. | Many authors (12) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/pep_646.py,174,5,1.0,1,1.4,2,0,0,0,1,1,1.0,195,195.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.194,55.1,No major issues
+src/black/files.py,300,20,4.75,16,1.8,65,0,2,20,12,10,0.16666666666666666,558,46.5,7.0,3.0,0.25,590.0438194444445,1.3691782407407407,0.189,92.5,"Very complex function (max cyclomatic complexity 16): split it up, use guard clauses / strategy pattern. | Long function (65 lines): extract smaller, single-purpose functions. | Depends on many modules (20): reduce coupling, apply dependency inversion. | Change hotspot (558 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (3): add regression tests, do a root-cause review. | Many authors (10) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/comments9.py,134,36,1.0555555555555556,2,0.05555555555555555,6,0,0,0,1,1,1.0,305,305.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.187,62.4,No major issues
+tests/data/cases/comments.py,33,3,1.6666666666666667,2,0.6666666666666666,6,1,5,7,1,1,1.0,96,96.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.183,69.0,Many files depend on this (5): put a stable interface in front and add contract tests.
+tests/data/cases/dummy_implementations.py,141,29,1.1724137931034482,2,0.896551724137931,4,0,0,1,1,1,1.0,249,249.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.179,64.5,No major issues
+tests/data/cases/fmtonoff5.py,94,4,3.5,4,0.5,9,0,0,0,1,1,1.0,175,175.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.177,64.7,No major issues
+tests/data/cases/type_params.py,62,10,1.2,2,0.0,6,0,0,0,3,3,0.3333333333333333,101,33.666666666666664,0.0,1.0,0.3333333333333333,590.0438194444445,101.9262962962963,0.176,67.8,No major issues
+tests/data/cases/fmtskip_conditional_in_brackets.py,25,1,5.0,5,2.0,9,0,0,0,1,1,1.0,30,30.0,1.0,1.0,1.0,29.29883101851852,29.29883101851852,0.176,63.3,No major issues
+tests/data/cases/remove_await_parens.py,123,36,1.0,1,0.0,14,0,0,1,1,1,1.0,195,195.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.174,60.8,No major issues
+tests/data/cases/docstring_tabs.py,2,2,1.0,1,0.0,1,0,0,0,1,1,1.0,24,24.0,0.0,1.0,1.0,161.32777777777778,161.32777777777778,0.173,47.5,No major issues
+tests/data/miscellaneous/debug_visitor.py,23,2,2.5,4,2.0,16,0,0,0,1,1,1.0,32,32.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.172,56.0,No major issues
+tests/data/cases/line_ranges_exceeding_end.py,26,2,1.0,1,7.0,10,0,0,0,1,1,1.0,36,36.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.171,48.3,No major issues
+tests/data/cases/pep604_union_types_line_breaks.py,160,9,1.0,1,1.5555555555555556,12,0,0,0,2,2,0.5,216,108.0,0.0,0.0,0.0,590.0438194444445,214.16372685185186,0.169,60.3,No major issues
+tests/data/cases/preview_fmt_off_class_blank_lines.py,8,2,1.0,1,1.0,2,0,0,1,1,1,1.0,17,17.0,0.0,0.0,0.0,101.02978009259259,101.02978009259259,0.169,43.9,No major issues
+tests/data/cases/remove_except_types_parens.py,180,0,0.0,0,0.0,0,0,0,0,2,2,0.5,251,125.5,0.0,0.0,0.0,437.44081018518517,285.7744212962963,0.165,45.2,No major issues
+tests/data/cases/function_trailing_comma.py,214,32,1.0625,2,0.625,29,0,0,0,1,1,1.0,308,308.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.163,65.3,No major issues
+src/blib2to3/pytree.py,315,42,2.2857142857142856,6,1.8333333333333333,25,0,13,5,13,10,0.3076923076923077,1863,143.30769230769232,5.0,1.0,0.07692307692307693,590.0438194444445,4.19119212962963,0.163,87.8,"Many files depend on this (13): put a stable interface in front and add contract tests. | Change hotspot (1863 lines churned): stabilise the design, add tests before more edits. | Many authors (10) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/trailing_commas_in_leading_parts.py,57,2,1.0,1,4.0,7,0,0,0,1,1,1.0,88,88.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.163,52.6,No major issues
+tests/data/cases/remove_parens_from_lhs.py,33,4,1.0,1,3.0,4,0,0,0,4,4,0.25,81,20.25,2.0,2.0,0.5,338.16332175925925,4.854189814814815,0.161,61.8,No major issues
+tests/data/cases/allow_empty_first_line.py,72,18,1.8888888888888888,7,0.4444444444444444,16,0,0,0,1,1,1.0,166,166.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.161,64.3,No major issues
+tests/data/cases/pep_570.py,31,5,1.0,1,5.2,12,0,0,0,1,1,1.0,44,44.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.161,49.7,No major issues
+tests/data/cases/remove_except_types_parens_pre_py314.py,164,0,0.0,0,0.0,0,0,0,0,2,2,0.5,227,113.5,0.0,0.0,0.0,437.44081018518517,285.7744212962963,0.161,44.7,No major issues
+tests/data/cases/fmtskip8.py,37,6,1.1666666666666667,2,1.6666666666666667,3,0,0,0,1,1,1.0,62,62.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.16,54.5,No major issues
+tests/data/cases/long_strings__type_annotations.py,46,6,1.0,1,1.3333333333333333,10,0,0,0,1,1,1.0,59,59.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.158,51.7,No major issues
+tests/data/cases/comment_in_subscript_annotation.py,14,2,1.0,1,0.0,4,0,0,0,1,1,1.0,25,25.0,0.0,0.0,0.0,165.29256944444444,165.29256944444444,0.158,44.1,No major issues
+src/black/brackets.py,289,15,7.8,42,1.5333333333333334,72,0,2,6,6,5,0.3333333333333333,474,79.0,1.0,2.0,0.3333333333333333,590.0438194444445,7.218761574074074,0.156,91.9,"Very complex function (max cyclomatic complexity 42): split it up, use guard clauses / strategy pattern. | Long function (72 lines): extract smaller, single-purpose functions. | Change hotspot (474 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/preview_wrap_comprehension_in.py,143,0,0.0,0,0.0,0,0,0,0,3,2,0.6666666666666666,185,61.666666666666664,0.0,0.0,0.0,417.4070949074074,101.9268287037037,0.155,44.2,No major issues
+tests/data/cases/if_guard_inside_case.py,32,2,9.0,9,1.0,18,0,0,0,1,1,1.0,49,49.0,0.0,1.0,1.0,242.93387731481482,242.93387731481482,0.155,68.1,No major issues
+tests/data/cases/torture.py,73,4,2.0,2,1.5,20,0,0,0,1,1,1.0,91,91.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.154,60.6,No major issues
+tests/data/cases/context_managers_39.py,129,2,1.0,1,0.0,14,0,0,0,4,2,0.5,263,65.75,0.0,1.0,0.25,590.0438194444445,489.93497685185184,0.154,67.8,No major issues
+tests/data/cases/pyi_overload_groups.py,652,52,1.1153846153846154,2,1.0,4,0,0,2,1,1,1.0,945,945.0,0.0,0.0,0.0,206.9241550925926,206.9241550925926,0.154,67.2,"Large file (652 lines): split by responsibility into modules. | Change hotspot (945 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/pyi_overload_groups_fmt_skip.py,38,2,1.0,1,2.0,1,0,0,1,1,1,1.0,46,46.0,1.0,1.0,1.0,36.061840277777776,36.061840277777776,0.154,56.7,No major issues
+tests/data/cases/t_docstring.py,26,12,1.0,1,0.0,2,0,0,0,1,1,1.0,58,58.0,1.0,0.0,0.0,89.31688657407408,89.31688657407408,0.154,47.5,No major issues
+tests/data/miscellaneous/python2_detection.py,31,2,1.0,1,2.0,2,0,0,0,1,1,1.0,90,90.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.153,49.3,No major issues
+tests/data/cases/fmtskip_type_ignore.py,2,0,0.0,0,0.0,0,0,0,0,1,1,1.0,2,2.0,0.0,0.0,0.0,165.27921296296296,165.27921296296296,0.153,25.5,No major issues
+tests/data/cases/pyi_docstring_blank_lines_no_preview.py,7,2,1.0,1,1.0,1,0,0,1,1,1,1.0,12,12.0,0.0,0.0,0.0,144.89577546296297,144.89577546296297,0.152,42.5,No major issues
+tests/data/cases/python37.py,40,10,2.4,3,0.4,9,0,0,0,2,2,0.5,61,30.5,0.0,1.0,0.5,590.0438194444445,511.88546296296295,0.151,67.7,No major issues
+tests/data/cases/pattern_matching_generic.py,74,4,5.0,12,1.25,36,0,0,0,1,1,1.0,108,108.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.15,66.2,"Very complex function (max cyclomatic complexity 12): split it up, use guard clauses / strategy pattern."
+tests/data/cases/yield_singleton_tuple.py,4,2,1.0,1,0.0,2,0,0,0,1,1,1.0,11,11.0,0.0,0.0,0.0,137.1842476851852,137.1842476851852,0.149,39.7,No major issues
+tests/data/cases/fmtskip10.py,22,2,2.0,3,0.5,12,0,0,0,6,4,0.5,29,4.833333333333333,1.0,2.0,0.3333333333333333,590.0438194444445,72.42046296296296,0.149,66.0,No major issues
+tests/data/cases/fmtskip_multiple_in_clause.py,32,2,4.0,4,0.0,12,0,0,0,1,1,1.0,43,43.0,0.0,1.0,1.0,332.3158564814815,332.3158564814815,0.148,65.0,No major issues
+tests/data/cases/yield_singleton_tuple_stable.py,4,2,1.0,1,0.0,2,0,0,0,1,1,1.0,9,9.0,0.0,0.0,0.0,137.1842476851852,137.1842476851852,0.148,39.5,No major issues
+tests/data/cases/long_strings_flag_disabled.py,239,1,1.0,1,0.0,2,0,0,0,1,1,1.0,296,296.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.147,56.3,No major issues
+tests/data/cases/empty_lines.py,122,4,10.5,12,0.0,35,0,0,0,1,1,1.0,187,187.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.146,69.5,"Very complex function (max cyclomatic complexity 12): split it up, use guard clauses / strategy pattern."
+tests/data/line_ranges_formatted/function_docstring.py,2,1,1.0,1,0.0,2,0,0,0,1,1,1.0,3,3.0,1.0,1.0,1.0,72.92283564814815,72.92283564814815,0.146,45.5,No major issues
+tests/test_concurrency_manager_shutdown.py,123,12,1.1666666666666667,2,1.3333333333333333,16,0,0,11,2,2,0.5,165,82.5,1.0,1.0,0.5,287.77325231481484,8.262893518518519,0.146,76.0,No major issues
+tests/data/cases/docstring.py,101,71,1.0,1,0.056338028169014086,2,0,0,0,3,3,0.3333333333333333,479,159.66666666666666,1.0,2.0,0.6666666666666666,590.0438194444445,23.175729166666667,0.145,67.4,"Change hotspot (479 lines churned): stabilise the design, add tests before more edits."
+src/black/rusty.py,14,4,1.0,1,1.5,2,0,1,1,1,1,1.0,28,28.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.143,50.2,No major issues
+tests/data/cases/fmtskip_in_clause.py,32,2,4.0,4,0.0,12,0,0,0,1,1,1.0,43,43.0,0.0,0.0,0.0,172.02657407407406,172.02657407407406,0.143,58.0,No major issues
+tests/data/cases/format_unicode_escape_seq.py,36,0,0.0,0,0.0,0,0,0,0,3,3,0.3333333333333333,39,13.0,2.0,1.0,0.3333333333333333,590.0438194444445,7.279675925925926,0.142,43.5,No major issues
+tests/data/cases/prefer_rhs_split.py,84,0,0.0,0,0.0,0,0,0,0,2,2,0.5,118,59.0,0.0,1.0,0.5,590.0438194444445,142.04653935185186,0.142,49.1,No major issues
+tests/data/line_ranges_formatted/basic.py,33,4,1.0,1,1.5,5,0,0,1,2,2,0.5,51,25.5,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.141,54.2,No major issues
+tests/util.py,278,17,3.0588235294117645,11,2.3529411764705883,53,0,6,18,5,5,0.2,373,74.6,0.0,1.0,0.2,590.0438194444445,152.85318287037038,0.141,88.9,"Very complex function (max cyclomatic complexity 11): split it up, use guard clauses / strategy pattern. | Many files depend on this (6): put a stable interface in front and add contract tests. | Depends on many modules (18): reduce coupling, apply dependency inversion. | Change hotspot (373 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/preview_simplify_power_operator_hugging_long.py,92,0,0.0,0,0.0,0,0,0,0,1,1,1.0,99,99.0,0.0,0.0,0.0,280.9378125,280.9378125,0.141,39.5,No major issues
+src/blib2to3/pgen2/pgen.py,311,25,3.52,9,1.92,42,2,0,5,4,4,0.25,482,120.5,0.0,0.0,0.0,590.0438194444445,215.2345486111111,0.14,80.7,"Change hotspot (482 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/line_ranges_two_passes.py,8,2,1.0,1,3.0,5,0,0,0,1,1,1.0,27,27.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.14,44.0,No major issues
+tests/data/cases/form_feeds.py,59,8,1.0,1,1.0,2,0,0,0,1,1,1.0,227,227.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.14,53.5,No major issues
+tests/data/cases/walrus_in_set_py310.py,10,2,1.0,1,1.0,2,0,0,0,1,1,1.0,21,21.0,1.0,0.0,0.0,8.347905092592592,8.347905092592592,0.139,41.8,No major issues
+tests/data/cases/walrus_in_set_py39.py,10,2,1.0,1,1.0,2,0,0,0,1,1,1.0,21,21.0,1.0,0.0,0.0,8.347905092592592,8.347905092592592,0.139,41.8,No major issues
+src/black/concurrency.py,208,6,9.0,26,3.1666666666666665,93,0,4,22,14,13,0.14285714285714285,480,34.285714285714285,6.0,3.0,0.21428571428571427,590.0438194444445,8.262893518518519,0.139,93.3,"Very complex function (max cyclomatic complexity 26): split it up, use guard clauses / strategy pattern. | Long function (93 lines): extract smaller, single-purpose functions. | Depends on many modules (22): reduce coupling, apply dependency inversion. | Change hotspot (480 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (3): add regression tests, do a root-cause review. | Many authors (13) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/fmtonoff_comment_only_with.py,16,2,2.0,2,1.0,4,0,0,0,1,1,1.0,34,34.0,0.0,1.0,1.0,128.20251157407407,128.20251157407407,0.138,58.3,No major issues
+tests/data/cases/preview_remove_multiline_lone_list_item_parens.py,222,0,0.0,0,0.0,0,0,0,0,1,1,1.0,246,246.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.138,43.0,No major issues
+tests/data/cases/preview_long_strings__regression.py,1113,66,1.2727272727272727,4,0.24242424242424243,22,0,0,0,6,6,0.16666666666666666,1365,227.5,4.0,0.0,0.0,590.0438194444445,8.262222222222222,0.137,71.2,"Large file (1113 lines): split by responsibility into modules. | Change hotspot (1365 lines churned): stabilise the design, add tests before more edits. | Many authors (6) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/preview_hug_parens_with_braces_and_square_brackets.py,276,4,1.0,1,1.0,7,0,0,0,1,1,1.0,347,347.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.137,58.7,No major issues
+tests/data/cases/preview_redundant_list_parentheses.py,92,4,1.0,1,0.0,2,0,0,0,2,1,1.0,169,84.5,2.0,0.0,0.0,20.13763888888889,8.222962962962963,0.136,54.0,No major issues
+tests/data/cases/fmtskip11.py,44,1,1.0,1,0.0,2,0,0,0,2,2,0.5,88,44.0,0.0,1.0,0.5,586.8577083333333,335.3239699074074,0.136,59.3,No major issues
+src/blackd/__init__.py,299,8,5.125,14,2.375,58,0,0,14,11,10,0.18181818181818182,444,40.36363636363637,5.0,1.0,0.09090909090909091,590.0438194444445,7.2043634259259255,0.136,86.0,"Very complex function (max cyclomatic complexity 14): split it up, use guard clauses / strategy pattern. | Change hotspot (444 lines churned): stabilise the design, add tests before more edits. | Many authors (10) with diffuse ownership: assign an owner, document conventions."
+scripts/fuzz.py,42,1,1.0,1,2.0,7,0,0,5,5,3,0.6,131,26.2,0.0,1.0,0.2,590.0438194444445,223.31576388888888,0.136,66.8,No major issues
+tests/data/cases/collections.py,142,0,0.0,0,0.0,0,0,3,3,1,1,1.0,174,174.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.134,49.2,No major issues
+tests/data/cases/fmtskip7.py,8,0,0.0,0,0.0,0,0,0,0,2,2,0.5,21,10.5,0.0,1.0,0.5,590.0438194444445,369.0451736111111,0.134,37.9,No major issues
+tests/data/cases/prefer_rhs_split_reformatted.py,43,0,0.0,0,0.0,0,0,0,0,2,2,0.5,71,35.5,0.0,1.0,0.5,590.0438194444445,142.04653935185186,0.134,45.9,No major issues
+tests/data/cases/pyi_decorated_class_blank_line.py,74,4,1.0,1,0.5,5,0,0,0,1,1,1.0,115,115.0,0.0,0.0,0.0,199.75730324074075,199.75730324074075,0.133,53.7,No major issues
+src/blib2to3/pgen2/driver.py,224,16,3.9375,16,2.1875,62,1,1,12,7,5,0.2857142857142857,423,60.42857142857143,2.0,0.0,0.0,590.0438194444445,5.802557870370371,0.131,85.3,"Very complex function (max cyclomatic complexity 16): split it up, use guard clauses / strategy pattern. | Long function (62 lines): extract smaller, single-purpose functions. | Change hotspot (423 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/preview_top_level_parentheses.py,156,2,1.0,1,0.0,7,0,0,0,1,1,1.0,235,235.0,1.0,0.0,0.0,8.222962962962963,8.222962962962963,0.131,57.5,No major issues
+tests/data/cases/pattern_matching_case_case_small_line_length.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,13,13.0,0.0,1.0,1.0,161.35597222222222,161.35597222222222,0.129,34.8,No major issues
+tests/data/cases/preview_comments7.py,263,3,1.0,1,1.6666666666666667,36,0,0,2,2,2,0.5,323,161.5,1.0,1.0,0.5,590.0438194444445,36.07251157407408,0.129,73.3,No major issues
+tests/test_github_action.py,107,3,1.3333333333333333,2,3.6666666666666665,16,0,0,6,2,2,0.5,121,60.5,2.0,2.0,1.0,25.82550925925926,6.1026388888888885,0.128,76.8,No major issues
+tests/data/miscellaneous/force_py36.py,11,1,1.0,1,7.0,10,0,0,0,1,1,1.0,16,16.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.127,44.1,No major issues
+tests/data/miscellaneous/force_pyi.py,43,3,1.0,1,1.3333333333333333,2,0,0,1,1,1,1.0,66,66.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.127,52.2,No major issues
+tests/data/cases/composition.py,164,4,2.25,5,1.0,77,0,0,0,2,2,0.5,185,92.5,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.127,69.7,"Long function (77 lines): extract smaller, single-purpose functions."
+tests/data/cases/fmtskip12.py,8,0,0.0,0,0.0,0,0,0,0,2,1,1.0,23,11.5,0.0,1.0,0.5,342.9699189814815,285.7744212962963,0.125,36.1,No major issues
+tests/data/cases/pattern_matching_extras.py,79,1,3.0,3,2.0,6,0,0,1,1,1,1.0,102,102.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.124,64.0,No major issues
+tests/data/cases/pep_701.py,81,0,0.0,0,0.0,0,0,0,1,3,3,0.3333333333333333,302,100.66666666666667,1.0,1.0,0.3333333333333333,590.0438194444445,8.281215277777777,0.123,54.4,No major issues
+tests/data/cases/pep_750.py,22,0,0.0,0,0.0,0,0,0,0,1,1,1.0,83,83.0,0.0,0.0,0.0,359.2024074074074,359.2024074074074,0.123,35.6,No major issues
+tests/data/cases/preview_keep_trailers_on_bracket_comment_overflow.py,29,12,1.0,1,0.0,6,0,0,0,1,1,1.0,39,39.0,1.0,0.0,0.0,20.80505787037037,20.80505787037037,0.123,48.0,No major issues
+tests/data/cases/comments4.py,80,4,1.0,1,2.75,13,0,0,1,1,1,1.0,94,94.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.123,57.5,No major issues
+tests/data/cases/walrus_in_set_py38.py,18,2,1.0,1,1.0,2,0,0,0,1,1,1.0,27,27.0,1.0,0.0,0.0,8.347905092592592,8.347905092592592,0.123,43.8,No major issues
+tests/data/cases/annotated_assignment_target_parens.py,22,2,1.0,1,0.0,2,0,0,0,1,1,1.0,57,57.0,1.0,0.0,0.0,72.18900462962964,72.18900462962964,0.123,47.1,No major issues
+tests/data/cases/line_ranges_basic.py,78,8,1.5,2,3.75,10,0,0,1,1,1,1.0,107,107.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.123,63.3,No major issues
+tests/data/cases/comments_in_comprehensions.py,88,2,2.0,2,0.0,8,0,0,0,2,2,0.5,133,66.5,1.0,1.0,0.5,155.15758101851853,57.2746875,0.121,70.6,No major issues
+tests/data/cases/comments_in_lambda_default.py,50,2,1.0,1,0.0,6,0,0,0,2,2,0.5,75,37.5,1.0,2.0,1.0,242.9339236111111,8.252835648148148,0.121,62.7,No major issues
+tests/data/line_ranges_formatted/fmt_off_comment_only.py,5,1,1.0,1,0.0,2,0,0,0,1,1,1.0,21,21.0,1.0,1.0,1.0,6.892280092592593,6.892280092592593,0.119,48.2,No major issues
+src/black/parsing.py,204,11,5.0,22,2.090909090909091,60,1,4,12,7,7,0.14285714285714285,369,52.714285714285715,1.0,1.0,0.14285714285714285,590.0438194444445,85.75396990740741,0.119,92.9,"Very complex function (max cyclomatic complexity 22): split it up, use guard clauses / strategy pattern. | Long function (60 lines): extract smaller, single-purpose functions. | Change hotspot (369 lines churned): stabilise the design, add tests before more edits. | Many authors (7) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/preview_type_param_defaults_string_split.py,34,4,1.0,1,0.0,7,0,0,0,1,1,1.0,47,47.0,1.0,0.0,0.0,20.824780092592594,20.824780092592594,0.119,49.5,No major issues
+tests/data/cases/keep_newline_after_match.py,20,2,5.0,5,1.0,10,0,0,0,1,1,1.0,41,41.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.119,57.2,No major issues
+tests/data/cases/fmtskip13.py,52,0,0.0,0,0.0,0,0,0,0,2,1,1.0,66,33.0,0.0,1.0,0.5,335.3241435185185,285.7744212962963,0.118,43.8,No major issues
+tests/data/cases/preview_redundant_comparison_parentheses.py,154,0,0.0,0,0.0,0,0,0,0,2,2,0.5,231,115.5,2.0,1.0,0.5,7.998541666666667,3.2449537037037035,0.118,51.7,No major issues
+src/blib2to3/pgen2/tokenize.py,203,4,8.5,23,2.75,82,0,4,6,8,5,0.375,419,52.375,0.0,2.0,0.25,590.0438194444445,223.2812962962963,0.117,91.7,"Very complex function (max cyclomatic complexity 23): split it up, use guard clauses / strategy pattern. | Long function (82 lines): extract smaller, single-purpose functions. | Change hotspot (419 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/fmtskip_own_line_between_statements.py,16,4,1.0,1,1.0,2,0,0,1,1,1,1.0,38,38.0,1.0,1.0,1.0,5.779340277777778,5.779340277777778,0.117,54.7,No major issues
+tests/data/cases/preview_long_strings__overloaded_operators.py,296,0,0.0,0,0.0,0,0,0,0,1,1,1.0,300,300.0,1.0,0.0,0.0,7.279513888888889,7.279513888888889,0.116,43.6,No major issues
+tests/data/line_ranges_formatted/fmt_off_comment_only_blank_lines.py,5,1,1.0,1,0.0,2,0,0,0,1,1,1.0,23,23.0,1.0,1.0,1.0,6.892280092592593,6.892280092592593,0.116,48.6,No major issues
+tests/test_ranges.py,296,11,1.0,1,1.5454545454545454,29,0,0,3,4,3,0.5,334,83.5,2.0,1.0,0.25,590.0438194444445,25.21071759259259,0.116,73.7,No major issues
+tests/data/cases/type_ignore_attribute_chain_unstable.py,13,2,1.0,1,1.0,7,0,0,0,1,1,1.0,21,21.0,1.0,0.0,0.0,36.03474537037037,36.03474537037037,0.115,44.3,No major issues
+scripts/diff_shades_gha_helper.py,169,9,3.111111111111111,6,1.5555555555555556,30,0,0,14,7,3,0.7142857142857143,427,61.0,1.0,0.0,0.0,590.0438194444445,25.811238425925925,0.114,75.9,"Change hotspot (427 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/pattern_matching_simple.py,75,1,6.0,6,1.0,12,0,0,0,1,1,1.0,93,93.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.114,63.5,No major issues
+tests/data/cases/expression.py,615,4,1.5,2,0.0,5,0,0,0,1,1,1.0,630,630.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.114,64.7,"Large file (615 lines): split by responsibility into modules. | Change hotspot (630 lines churned): stabilise the design, add tests before more edits."
+docs/conf.py,90,4,1.25,2,1.75,8,0,0,6,4,4,0.25,251,62.75,0.0,0.0,0.0,590.0438194444445,119.75951388888889,0.114,68.8,No major issues
+scripts/release.py,234,14,3.2142857142857144,13,1.2142857142857142,35,0,1,9,13,7,0.38461538461538464,630,48.46153846153846,3.0,2.0,0.15384615384615385,590.0438194444445,1.2246527777777778,0.114,90.5,"Very complex function (max cyclomatic complexity 13): split it up, use guard clauses / strategy pattern. | Change hotspot (630 lines churned): stabilise the design, add tests before more edits. | Many authors (7) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/preview_long_strings.py,740,2,1.0,1,0.0,6,0,0,0,4,4,0.25,999,249.75,1.0,2.0,0.5,590.0438194444445,29.36627314814815,0.114,71.2,"Large file (740 lines): split by responsibility into modules. | Change hotspot (999 lines churned): stabilise the design, add tests before more edits."
+action/main.py,179,3,8.0,11,0.3333333333333333,55,1,0,8,10,8,0.3,246,24.6,4.0,3.0,0.3,590.0438194444445,6.1026388888888885,0.113,90.0,"Very complex function (max cyclomatic complexity 11): split it up, use guard clauses / strategy pattern. | Repeated bug fixes (3): add regression tests, do a root-cause review. | Many authors (8) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/fmtskip_line_closes_earlier_bracket.py,32,6,1.0,1,1.0,5,0,0,0,1,1,1.0,47,47.0,1.0,1.0,1.0,5.805717592592592,5.805717592592592,0.113,55.6,No major issues
+tests/data/cases/preview_unpacking_parens.py,116,0,0.0,0,0.0,0,0,0,0,1,1,1.0,174,174.0,1.0,0.0,0.0,36.264768518518515,36.264768518518515,0.113,41.5,No major issues
+tests/data/cases/remove_newline_after_code_block_open.py,82,10,1.0,1,0.2,3,0,0,1,1,1,1.0,212,212.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.113,57.7,No major issues
+tests/data/cases/type_ignore_attribute_chain.py,13,2,1.0,1,1.0,7,0,0,0,1,1,1.0,18,18.0,1.0,0.0,0.0,36.03474537037037,36.03474537037037,0.112,43.8,No major issues
+src/black/_width_table.py,128,0,0.0,0,0.0,0,0,1,1,2,2,0.5,872,436.0,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.111,52.7,"Change hotspot (872 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/fmtonoff6.py,34,2,1.0,1,0.0,4,0,0,0,2,2,0.5,89,44.5,0.0,1.0,0.5,590.0438194444445,200.4975462962963,0.111,59.7,No major issues
+tests/data/cases/preview_symmetric_list_concatenation.py,190,0,0.0,0,0.0,0,0,0,0,1,1,1.0,249,249.0,1.0,0.0,0.0,20.203171296296297,20.203171296296297,0.111,43.0,No major issues
+tests/data/cases/preview_long_dict_values.py,301,8,1.25,2,0.25,17,0,0,0,2,2,0.5,358,179.0,1.0,0.0,0.0,590.0438194444445,24.207280092592594,0.111,67.7,"Change hotspot (358 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/fmtskip_paired_header.py,78,0,0.0,0,0.0,0,0,0,0,2,2,0.5,95,47.5,2.0,1.0,0.5,36.02600694444445,6.878287037037037,0.11,47.9,No major issues
+tests/data/cases/string_quotes_escaped_trailing_quote.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,21,21.0,0.0,0.0,0.0,94.88344907407408,94.88344907407408,0.11,28.7,No major issues
+tests/data/cases/comments6.py,87,8,1.25,3,3.875,25,0,0,1,1,1,1.0,118,118.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.109,65.5,No major issues
+src/blackd/client.py,57,2,7.5,10,6.5,33,0,1,3,2,2,0.5,102,51.0,0.0,0.0,0.0,376.14190972222224,347.8257291666667,0.108,74.9,"Very complex function (max cyclomatic complexity 10): split it up, use guard clauses / strategy pattern."
+tests/data/cases/type_ignore_attribute_chain_with_comment.py,28,4,1.0,1,1.0,7,0,0,0,1,1,1.0,37,37.0,1.0,1.0,1.0,4.184513888888889,4.184513888888889,0.107,54.9,No major issues
+src/blib2to3/pgen2/parse.py,208,17,3.0588235294117645,10,3.1176470588235294,31,0,1,7,6,5,0.3333333333333333,439,73.16666666666667,1.0,3.0,0.5,590.0438194444445,5.802557870370371,0.107,89.6,"Very complex function (max cyclomatic complexity 10): split it up, use guard clauses / strategy pattern. | Change hotspot (439 lines churned): stabilise the design, add tests before more edits. | Repeated bug fixes (3): add regression tests, do a root-cause review."
+tests/data/cases/preview_parenthesize_expressions_with_comments.py,44,2,1.0,1,1.0,7,0,0,0,1,1,1.0,75,75.0,1.0,0.0,0.0,23.238564814814815,23.238564814814815,0.107,51.9,No major issues
+tests/data/cases/pep_750_nested_quotes.py,16,0,0.0,0,0.0,0,0,0,0,1,1,1.0,34,34.0,0.0,0.0,0.0,94.3485300925926,94.3485300925926,0.107,31.5,No major issues
+tests/data/cases/blank_line_after_stub_method.py,34,2,1.0,1,0.0,2,0,0,0,1,1,1.0,52,52.0,1.0,1.0,1.0,27.17670138888889,27.17670138888889,0.106,54.7,No major issues
+tests/data/cases/trailing_comma_optional_parens1.py,51,4,2.0,3,1.0,7,0,0,0,1,1,1.0,63,63.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.106,58.3,No major issues
+tests/data/cases/type_ignore_with_other_comment.py,20,0,0.0,0,0.0,0,0,0,1,1,1,1.0,27,27.0,0.0,1.0,1.0,280.93797453703706,280.93797453703706,0.106,41.1,No major issues
+tests/data/cases/walrus_in_dict.py,4,0,0.0,0,0.0,0,0,0,0,2,2,0.5,12,6.0,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.106,29.3,No major issues
+tests/test_action.py,74,5,2.2,7,1.6,19,0,0,6,1,1,1.0,94,94.0,1.0,0.0,0.0,20.804814814814815,20.804814814814815,0.105,66.8,No major issues
+tests/data/cases/line_ranges_fmt_off_comment_only_blank_lines.py,14,2,1.0,1,0.0,2,0,0,0,1,1,1.0,72,72.0,1.0,1.0,1.0,6.892280092592593,6.892280092592593,0.105,54.2,No major issues
+tests/data/cases/skip_magic_trailing_comma.py,97,0,0.0,0,0.0,0,0,0,0,7,7,0.14285714285714285,164,23.428571428571427,4.0,3.0,0.42857142857142855,590.0438194444445,4.854189814814815,0.105,53.2,"Repeated bug fixes (3): add regression tests, do a root-cause review. | Many authors (7) with diffuse ownership: assign an owner, document conventions."
+tests/data/cases/preview_hug_comparator.py,83,0,0.0,0,0.0,0,0,0,0,1,1,1.0,134,134.0,0.0,0.0,0.0,164.0629976851852,164.0629976851852,0.104,40.1,No major issues
+tests/data/cases/remove_parens.py,96,22,1.4545454545454546,4,0.0,26,0,0,0,1,1,1.0,142,142.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.104,64.1,No major issues
+tests/data/cases/line_ranges_fmt_off_comment_only.py,12,2,1.0,1,0.0,2,0,0,0,1,1,1.0,60,60.0,1.0,1.0,1.0,6.892280092592593,6.892280092592593,0.103,53.2,No major issues
+tests/data/cases/fmtskip_after_bracket_with_comment.py,12,0,0.0,0,0.0,0,0,0,1,1,1,1.0,27,27.0,0.0,1.0,1.0,144.31081018518518,144.31081018518518,0.102,40.2,No major issues
+tests/test_schedule_formatting.py,68,5,1.6,3,1.6,15,0,0,8,1,1,1.0,90,90.0,1.0,1.0,1.0,26.96203703703704,26.96203703703704,0.101,71.5,No major issues
+src/blackd/middlewares.py,36,2,4.0,7,2.5,21,0,1,6,2,2,0.5,61,30.5,0.0,0.0,0.0,590.0438194444445,232.83900462962964,0.101,71.0,No major issues
+tests/data/cases/python315.py,36,4,1.5,2,0.0,3,0,0,1,2,2,0.5,54,27.0,1.0,0.0,0.0,223.2812962962963,10.272881944444444,0.101,59.4,No major issues
+src/black/debug.py,41,3,2.6666666666666665,4,2.6666666666666665,16,0,2,8,2,2,0.5,57,28.5,0.0,0.0,0.0,590.0438194444445,347.8257291666667,0.1,69.5,No major issues
+tests/data/cases/fmtonoff_comments_before_fmt_on.py,76,2,1.0,1,1.0,8,0,0,0,1,1,1.0,137,137.0,1.0,0.0,0.0,7.993414351851852,7.993414351851852,0.1,55.1,No major issues
+scripts/release_tests.py,76,8,1.0,1,1.625,21,0,0,7,3,2,0.6666666666666666,133,44.333333333333336,1.0,0.0,0.0,590.0438194444445,26.972546296296297,0.1,62.3,No major issues
+tests/data/cases/fmtonoff9.py,11,1,1.0,1,0.0,4,0,0,0,1,1,1.0,40,40.0,1.0,0.0,0.0,72.38046296296297,72.38046296296297,0.1,45.5,No major issues
+tests/data/cases/fmtskip_header_after_comment_only_fmt_off.py,43,4,1.5,3,0.75,5,0,0,0,1,1,1.0,93,93.0,1.0,1.0,1.0,7.276909722222222,7.276909722222222,0.1,65.1,No major issues
+src/blib2to3/pgen2/grammar.py,130,7,1.4285714285714286,2,1.5714285714285714,18,0,6,6,2,2,0.5,230,115.0,1.0,0.0,0.0,590.0438194444445,5.802557870370371,0.099,74.2,Many files depend on this (6): put a stable interface in front and add contract tests.
+tests/data/cases/fmtskip_in_parens.py,24,0,0.0,0,0.0,0,0,0,0,1,1,1.0,49,49.0,0.0,1.0,1.0,164.12511574074074,164.12511574074074,0.098,41.0,No major issues
+tests/data/cases/type_ignore_after_other_comment.py,32,2,1.0,1,1.0,5,0,0,0,1,1,1.0,43,43.0,1.0,1.0,1.0,4.1690046296296295,4.1690046296296295,0.098,55.2,No major issues
+tests/data/cases/fmtskip_multiple_strings.py,56,0,0.0,0,0.0,0,0,0,0,1,1,1.0,75,75.0,0.0,1.0,1.0,332.3158564814815,332.3158564814815,0.097,44.3,No major issues
+tests/data/cases/fmtskip_type_params.py,9,1,1.0,1,1.0,1,0,0,0,1,1,1.0,27,27.0,1.0,1.0,1.0,31.050810185185185,31.050810185185185,0.097,49.0,No major issues
+tests/data/cases/trailing_comment_after_optional_parens.py,52,2,1.0,1,0.0,4,0,0,0,1,1,1.0,101,101.0,1.0,0.0,0.0,37.969097222222224,37.969097222222224,0.097,52.1,No major issues
+tests/data/cases/type_param_defaults.py,49,10,1.0,1,1.2,7,0,0,0,1,1,1.0,69,69.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.096,51.7,No major issues
+tests/data/cases/fmtskip_opening_bracket_split.py,36,2,1.0,1,0.0,5,0,0,0,1,1,1.0,59,59.0,1.0,1.0,1.0,8.285798611111112,8.285798611111112,0.094,56.8,No major issues
+tests/data/cases/unstable_comment_on_optional_parens.py,14,0,0.0,0,0.0,0,0,0,0,1,1,1.0,27,27.0,0.0,1.0,1.0,101.92446759259259,101.92446759259259,0.093,37.5,No major issues
+tests/data/cases/import_spacing.py,91,0,0.0,0,0.0,0,0,0,16,1,1,1.0,118,118.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.093,44.5,"Depends on many modules (16): reduce coupling, apply dependency inversion."
+tests/data/cases/stable_symmetric_list_concatenation.py,3,0,0.0,0,0.0,0,0,0,0,1,1,1.0,4,4.0,1.0,0.0,0.0,20.203171296296297,20.203171296296297,0.093,26.0,No major issues
+tests/data/cases/function2.py,90,20,1.1,2,0.3,15,0,0,2,1,1,1.0,121,121.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.093,64.5,No major issues
+tests/data/cases/preview_prefer_rhs_split_indexed_assignment.py,53,0,0.0,0,0.0,0,0,0,0,1,1,1.0,94,94.0,0.0,1.0,1.0,142.04653935185186,142.04653935185186,0.092,44.9,No major issues
+tests/data/cases/tstring_prefix_stable.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,23,23.0,1.0,0.0,0.0,38.757152777777776,38.757152777777776,0.092,30.5,No major issues
+tests/data/cases/tstring_prefix_preview.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,23,23.0,1.0,0.0,0.0,38.757152777777776,38.757152777777776,0.092,30.5,No major issues
+tests/data/cases/tstring_prefix_skip.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,23,23.0,1.0,0.0,0.0,38.757152777777776,38.757152777777776,0.092,30.5,No major issues
+tests/data/cases/line_ranges_preserve_outside_prefix.py,12,0,0.0,0,0.0,0,0,0,0,1,1,1.0,46,46.0,1.0,0.0,0.0,39.258784722222224,39.258784722222224,0.089,32.3,No major issues
+tests/data/cases/preview_hug_parens_with_type_ignore.py,42,0,0.0,0,0.0,0,0,0,0,1,1,1.0,58,58.0,1.0,0.0,0.0,86.06376157407408,86.06376157407408,0.088,35.8,No major issues
+tests/data/cases/line_ranges_one_line_clauses.py,43,6,2.3333333333333335,3,1.0,10,0,0,1,1,1,1.0,61,61.0,1.0,1.0,1.0,2.1434953703703705,2.1434953703703705,0.088,68.7,No major issues
+tests/data/cases/line_ranges_fmt_off_comment_only_header.py,52,4,3.5,6,1.0,19,0,0,0,1,1,1.0,105,105.0,1.0,1.0,1.0,7.276909722222222,7.276909722222222,0.087,70.5,No major issues
+tests/data/cases/comments3.py,29,1,6.0,6,0.0,29,0,0,0,1,1,1.0,48,48.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.087,60.5,No major issues
+tests/data/cases/fmtskip_opening_bracket_conditional.py,38,2,2.0,2,0.0,4,0,0,0,1,1,1.0,59,59.0,1.0,1.0,1.0,7.259513888888889,7.259513888888889,0.087,62.6,No major issues
+tests/data/cases/preview_symmetric_list_concatenation_skip_magic.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,15,15.0,1.0,0.0,0.0,20.203171296296297,20.203171296296297,0.086,28.0,No major issues
+tests/data/cases/comments_in_blocks.py,62,2,2.5,3,1.0,9,0,0,1,1,1,1.0,111,111.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.086,64.4,No major issues
+tests/data/cases/jupytext_markdown_fmt.py,2,0,0.0,0,0.0,0,0,0,0,1,1,1.0,24,24.0,0.0,1.0,1.0,343.018125,343.018125,0.085,35.4,No major issues
+tests/data/cases/stub.py,108,14,1.0,1,0.8571428571428571,3,0,0,0,1,1,1.0,152,152.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.085,54.6,No major issues
+tests/optional.py,84,5,4.4,13,1.2,37,0,0,10,4,4,0.25,179,44.75,1.0,1.0,0.25,590.0438194444445,2.9360300925925924,0.085,81.8,"Very complex function (max cyclomatic complexity 13): split it up, use guard clauses / strategy pattern."
+src/black/numerics.py,36,5,2.8,5,1.0,13,0,1,1,2,2,0.5,65,32.5,1.0,1.0,0.5,590.0438194444445,87.79674768518518,0.084,75.8,No major issues
+tests/data/cases/line_ranges_preserve_blank_lines_before_comments.py,12,0,0.0,0,0.0,0,0,0,0,1,1,1.0,38,38.0,1.0,0.0,0.0,5.813275462962963,5.813275462962963,0.084,31.5,No major issues
+src/black/cache.py,105,8,2.75,5,1.75,22,0,3,14,5,5,0.2,201,40.2,2.0,0.0,0.0,590.0438194444445,0.005185185185185185,0.083,77.4,No major issues
+tests/data/cases/f_docstring.py,8,6,1.0,1,1.0,2,0,0,0,1,1,1.0,20,20.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.083,41.3,No major issues
+tests/data/cases/fmtskip_opening_bracket_operand.py,68,4,3.0,4,0.0,9,0,0,0,1,1,1.0,95,95.0,1.0,1.0,1.0,4.172314814814815,4.172314814814815,0.083,68.5,No major issues
+tests/data/cases/preview_avoid_parens_for_unbreakable_rhs_in_assignments.py,34,0,0.0,0,0.0,0,0,0,0,1,1,1.0,61,61.0,1.0,0.0,0.0,25.811238425925925,25.811238425925925,0.083,35.6,No major issues
+tests/data/cases/fmtskip_consecutive_statements.py,74,2,1.0,1,0.0,5,0,0,0,1,1,1.0,97,97.0,1.0,1.0,1.0,0.9556597222222222,0.9556597222222222,0.082,59.9,No major issues
+src/black/report.py,99,6,5.5,9,2.1666666666666665,27,0,7,5,4,4,0.25,155,38.75,2.0,0.0,0.0,590.0438194444445,26.998148148148147,0.081,78.0,Many files depend on this (7): put a stable interface in front and add contract tests.
+tests/data/cases/preview_symmetric_list_concatenation_line_length.py,7,0,0.0,0,0.0,0,0,0,0,1,1,1.0,12,12.0,1.0,0.0,0.0,20.203171296296297,20.203171296296297,0.081,27.5,No major issues
+tests/data/cases/preview_long_strings__raw_backslash_continuation.py,15,0,0.0,0,0.0,0,0,0,0,1,1,1.0,28,28.0,1.0,0.0,0.0,25.797650462962963,25.797650462962963,0.081,30.9,No major issues
+tests/data/cases/preview_raw_string_width.py,7,0,0.0,0,0.0,0,0,0,0,1,1,1.0,12,12.0,1.0,0.0,0.0,8.262222222222222,8.262222222222222,0.081,27.5,No major issues
+tests/data/cases/preview_raw_string_boundary.py,7,0,0.0,0,0.0,0,0,0,0,1,1,1.0,12,12.0,1.0,0.0,0.0,8.262222222222222,8.262222222222222,0.081,27.5,No major issues
+profiling/list_big.py,4000,0,0.0,0,0.0,0,0,0,0,1,1,1.0,4000,4000.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.081,45.7,"Large file (4000 lines): split by responsibility into modules. | Change hotspot (4000 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/pattern_matching_complex.py,120,0,0.0,0,0.0,0,0,0,0,1,1,1.0,155,155.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.08,41.2,No major issues
+tests/data/cases/fmtskip_header_bracket_5402.py,42,1,2.0,2,0.0,9,0,0,0,1,1,1.0,57,57.0,1.0,1.0,1.0,38.827152777777776,38.827152777777776,0.08,64.0,No major issues
+tests/data/cases/power_op_spacing.py,122,6,1.0,1,0.6666666666666666,3,0,0,0,1,1,1.0,149,149.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.079,54.6,No major issues
+tests/data/cases/fmtskip_leaf_bracket_depth.py,12,0,0.0,0,0.0,0,0,0,0,1,1,1.0,16,16.0,1.0,0.0,0.0,39.1800462962963,39.1800462962963,0.079,28.7,No major issues
+profiling/dict_big.py,8001,0,0.0,0,0.0,0,0,0,0,1,1,1.0,8001,8001.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.078,45.7,"Large file (8001 lines): split by responsibility into modules. | Change hotspot (8001 lines churned): stabilise the design, add tests before more edits."
+tests/data/cases/preview_long_strings__duplicate_comments.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,15,15.0,1.0,1.0,1.0,27.103842592592592,27.103842592592592,0.077,35.0,No major issues
+profiling/mix_big.py,1002,0,0.0,0,0.0,0,0,0,0,1,1,1.0,1002,1002.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.077,45.2,"Large file (1002 lines): split by responsibility into modules. | Change hotspot (1002 lines churned): stabilise the design, add tests before more edits."
+src/black/output.py,91,11,3.0,8,2.3636363636363638,15,0,9,8,3,3,0.3333333333333333,149,49.666666666666664,0.0,0.0,0.0,590.0438194444445,164.3121759259259,0.077,76.3,Many files depend on this (9): put a stable interface in front and add contract tests.
+tests/data/cases/remove_lone_list_item_parens.py,138,0,0.0,0,0.0,0,0,0,0,1,1,1.0,157,157.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.077,41.4,No major issues
+tests/data/cases/fmtskip_one_liner_bare_name.py,16,0,0.0,0,0.0,0,0,0,0,1,1,1.0,22,22.0,1.0,1.0,1.0,7.1959375,7.1959375,0.077,36.9,No major issues
+tests/data/cases/preview_redundant_generator_parentheses.py,81,0,0.0,0,0.0,0,0,0,0,2,2,0.5,106,53.0,2.0,0.0,0.0,74.13496527777778,38.08133101851852,0.077,41.6,No major issues
+tests/data/cases/preview_raw_string_merge.py,31,0,0.0,0,0.0,0,0,0,0,1,1,1.0,40,40.0,1.0,0.0,0.0,8.262222222222222,8.262222222222222,0.076,33.6,No major issues
+tests/data/line_ranges_formatted/pattern_matching.py,22,1,8.0,8,0.0,22,0,0,0,1,1,1.0,25,25.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.075,57.6,No major issues
+src/blib2to3/pygram.py,170,2,1.5,2,2.0,30,1,0,4,6,4,0.3333333333333333,232,38.666666666666664,2.0,0.0,0.0,590.0438194444445,5.802557870370371,0.075,74.8,No major issues
+tests/test_schema.py,9,1,1.0,1,0.0,8,0,0,1,2,2,0.5,28,14.0,0.0,0.0,0.0,590.0438194444445,347.8257291666667,0.075,50.4,No major issues
+tests/data/cases/preview_magic_trailing_comma_trailer_split.py,23,0,0.0,0,0.0,0,0,0,0,1,1,1.0,26,26.0,1.0,0.0,0.0,29.311527777777776,29.311527777777776,0.075,31.5,No major issues
+tests/data/cases/target_version_flag.py,5,1,1.0,1,1.0,2,0,0,0,1,1,1.0,10,10.0,0.0,1.0,1.0,445.9773611111111,445.9773611111111,0.074,46.8,No major issues
+tests/data/cases/class_blank_parentheses.py,39,10,1.0,1,0.8,3,0,0,0,1,1,1.0,59,59.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.074,49.3,No major issues
+tests/data/cases/fmtskip_opening_bracket_split_short_line.py,6,0,0.0,0,0.0,0,0,0,0,1,1,1.0,19,19.0,1.0,1.0,1.0,5.817581018518519,5.817581018518519,0.074,35.1,No major issues
+tests/data/line_ranges_formatted/fmt_skip_in_brackets.py,18,0,0.0,0,0.0,0,0,0,0,1,1,1.0,22,22.0,1.0,1.0,1.0,25.096180555555556,25.096180555555556,0.074,37.1,No major issues
+tests/data/cases/long_strings__overloaded_operators.py,90,0,0.0,0,0.0,0,0,0,0,1,1,1.0,94,94.0,1.0,0.0,0.0,7.279513888888889,7.279513888888889,0.073,39.1,No major issues
+tests/data/cases/overlong_commented_rhs.py,22,0,0.0,0,0.0,0,0,0,0,1,1,1.0,28,28.0,1.0,0.0,0.0,1.0563078703703703,1.0563078703703703,0.073,31.7,No major issues
+tests/data/cases/fmtskip_opening_bracket_twice.py,68,2,2.0,2,0.0,6,0,0,0,1,1,1.0,91,91.0,1.0,1.0,1.0,4.1870717592592595,4.1870717592592595,0.072,65.7,No major issues
+tests/data/cases/line_ranges_format_selected_prefix_comment.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,11,11.0,1.0,0.0,0.0,39.258784722222224,39.258784722222224,0.072,26.9,No major issues
+tests/data/cases/line_ranges_decorator_edge_case.py,5,1,1.0,1,1.0,2,0,0,0,1,1,1.0,8,8.0,0.0,1.0,1.0,424.956724537037,424.956724537037,0.071,46.6,No major issues
+tests/data/cases/typed_params_trailing_comma.py,16,4,1.0,1,1.0,4,0,0,0,1,1,1.0,23,23.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.071,44.0,No major issues
+tests/data/cases/preview_keep_dict_keys_with_operators.py,80,0,0.0,0,0.0,0,0,0,0,1,1,1.0,110,110.0,1.0,0.0,0.0,29.36627314814815,29.36627314814815,0.07,39.5,No major issues
+tests/data/cases/preview_return_annotation_brackets_string.py,28,10,1.0,1,0.8,5,0,0,0,2,2,0.5,60,30.0,1.0,1.0,0.5,590.0438194444445,36.05079861111111,0.07,58.5,No major issues
+tests/data/cases/preview_long_strings__small_line_length.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,21,21.0,1.0,1.0,1.0,6.878854166666667,6.878854166666667,0.069,37.1,No major issues
+tests/data/cases/preview_long_strings__east_asian_width.py,45,0,0.0,0,0.0,0,0,0,0,2,2,0.5,57,28.5,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.069,38.1,No major issues
+tests/data/cases/fmtskip_after_multiline_import.py,26,2,1.0,1,0.0,5,0,0,3,1,1,1.0,38,38.0,1.0,1.0,1.0,7.279583333333333,7.279583333333333,0.068,57.7,No major issues
+tests/data/cases/preview_long_strings__edge_case.py,153,0,0.0,0,0.0,0,0,0,0,2,2,0.5,161,80.5,1.0,0.0,0.0,590.0438194444445,8.209166666666667,0.068,43.8,No major issues
+tests/test_docs.py,60,2,6.5,9,1.5,37,0,0,6,2,2,0.5,78,39.0,0.0,0.0,0.0,590.0438194444445,347.8257291666667,0.068,70.5,No major issues
+scripts/make_width_table.py,27,2,4.5,7,0.0,18,0,0,5,2,2,0.5,68,34.0,0.0,0.0,0.0,590.0438194444445,287.79212962962964,0.067,66.7,No major issues
+tests/data/cases/pattern_matching_with_if_stmt.py,62,0,0.0,0,0.0,0,0,0,0,1,1,1.0,72,72.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.067,37.4,No major issues
+tests/data/cases/no_blank_line_before_docstring.py,18,4,1.0,1,0.5,2,0,0,0,1,1,1.0,65,65.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.067,47.2,No major issues
+tests/data/cases/trailing_comma.py,44,0,0.0,0,0.0,0,0,0,0,1,1,1.0,55,55.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.066,35.7,No major issues
+tests/data/cases/line_ranges_fmt_skip_in_brackets.py,38,0,0.0,0,0.0,0,0,0,0,1,1,1.0,63,63.0,1.0,1.0,1.0,25.096180555555556,25.096180555555556,0.065,43.1,No major issues
+tests/data/cases/comment_after_escaped_newline.py,11,4,1.0,1,0.0,4,0,0,0,1,1,1.0,20,20.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.065,42.8,No major issues
+tests/data/cases/pep_572.py,40,2,1.0,1,1.0,2,0,0,0,1,1,1.0,47,47.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.065,47.8,No major issues
+tests/data/cases/preview_unpacking_parens_multiline.py,32,0,0.0,0,0.0,0,0,0,0,1,1,1.0,53,53.0,1.0,1.0,1.0,8.299120370370371,8.299120370370371,0.064,41.8,No major issues
+tests/data/miscellaneous/async_as_identifier.py,30,8,1.0,1,0.0,5,0,0,0,1,1,1.0,49,49.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.063,48.7,No major issues
+tests/test_tokenize.py,89,4,1.25,2,0.75,48,0,0,5,1,1,1.0,107,107.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.063,65.8,No major issues
+tests/data/cases/pattern_matching_style.py,63,0,0.0,0,0.0,0,0,0,0,1,1,1.0,92,92.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.063,38.1,No major issues
+tests/data/cases/remove_with_brackets.py,85,0,0.0,0,0.0,0,0,0,0,1,1,1.0,145,145.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.061,40.4,No major issues
+tests/data/cases/pep_654.py,46,0,0.0,0,0.0,0,0,0,0,1,1,1.0,54,54.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.061,35.7,No major issues
+tests/data/cases/preview_redundant_generator_parentheses_skip_mtc.py,35,0,0.0,0,0.0,0,0,0,0,1,1,1.0,54,54.0,1.0,1.0,1.0,8.327627314814816,8.327627314814816,0.061,42.1,No major issues
+tests/data/cases/bytes_docstring.py,16,10,1.0,1,0.0,2,0,0,0,1,1,1.0,34,34.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.06,44.3,No major issues
+tests/data/cases/split_delimiter_comments.py,74,2,2.0,2,1.0,6,0,0,0,2,2,0.5,83,41.5,1.0,1.0,0.5,590.0438194444445,5.991458333333333,0.06,67.8,No major issues
+tests/data/cases/power_op_spacing_long.py,92,0,0.0,0,0.0,0,0,0,0,1,1,1.0,96,96.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.06,39.4,No major issues
+tests/data/cases/pep_572_remove_parens.py,80,8,1.0,1,0.25,13,0,0,0,1,1,1.0,141,141.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.059,56.0,No major issues
+tests/data/cases/fstring_quotations.py,45,0,0.0,0,0.0,0,0,0,0,1,1,1.0,67,67.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.059,36.7,No major issues
+tests/data/cases/comments_in_double_parens.py,71,4,1.0,1,0.0,6,0,0,0,1,1,1.0,113,113.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.059,53.8,No major issues
+tests/data/cases/line_ranges_fmt_off_decorator.py,20,4,1.0,1,0.0,2,0,0,0,1,1,1.0,47,47.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.058,46.1,No major issues
+src/blib2to3/pgen2/literals.py,51,3,4.0,6,0.6666666666666666,20,0,0,1,2,2,0.5,71,35.5,0.0,0.0,0.0,590.0438194444445,511.88495370370373,0.058,67.4,No major issues
+tests/data/cases/context_managers_38.py,37,0,0.0,0,0.0,0,0,0,0,1,1,1.0,54,54.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.058,35.3,No major issues
+tests/data/cases/preview_redundant_subscript_parentheses.py,121,0,0.0,0,0.0,0,0,0,0,1,1,1.0,138,138.0,1.0,1.0,1.0,8.244247685185185,8.244247685185185,0.058,47.9,No major issues
+tests/data/cases/async_stmts.py,14,4,1.0,1,0.0,2,0,0,0,1,1,1.0,27,27.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.058,43.4,No major issues
+tests/data/cases/fmtskip6.py,10,2,3.0,3,1.0,4,0,0,0,1,1,1.0,13,13.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,49.4,No major issues
+tests/data/cases/ignore_pyi.py,22,6,1.0,1,0.0,2,0,0,0,1,1,1.0,42,42.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,46.0,No major issues
+tests/data/cases/nested_stub.py,50,2,1.0,1,1.0,2,0,0,1,1,1,1.0,69,69.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,52.6,No major issues
+tests/data/cases/module_docstring_2.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,69,69.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,32.9,No major issues
+tests/data/cases/string_prefixes.py,18,4,1.0,1,0.0,1,0,0,0,1,1,1.0,45,45.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,45.0,No major issues
+tests/data/cases/remove_except_parens.py,55,0,0.0,0,0.0,0,0,0,0,1,1,1.0,79,79.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,37.4,No major issues
+tests/data/cases/comments5.py,28,2,1.5,2,0.0,3,0,0,1,2,2,0.5,75,37.5,0.0,0.0,0.0,590.0438194444445,285.7744212962963,0.056,60.1,No major issues
+tests/data/cases/fmtskip_after_multiline_call.py,54,0,0.0,0,0.0,0,0,0,0,1,1,1.0,66,66.0,1.0,1.0,1.0,8.299270833333333,8.299270833333333,0.056,43.8,No major issues
+tests/data/cases/pep_654_style.py,94,0,0.0,0,0.0,0,0,0,0,1,1,1.0,112,112.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.056,40.1,No major issues
+tests/data/cases/pep_604.py,16,4,1.0,1,0.0,8,0,0,0,1,1,1.0,25,25.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.055,45.6,No major issues
+tests/data/cases/slices.py,25,1,2.0,2,0.0,2,0,0,0,1,1,1.0,31,31.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.055,51.1,No major issues
+tests/data/cases/comments_in_lambda_parameters.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,32,32.0,1.0,1.0,1.0,7.218761574074074,7.218761574074074,0.055,38.8,No major issues
+tests/data/cases/preview_keep_commented_expressions_together.py,74,0,0.0,0,0.0,0,0,0,0,1,1,1.0,135,135.0,1.0,1.0,1.0,25.77917824074074,25.77917824074074,0.055,46.8,No major issues
+src/blib2to3/pgen2/token.py,75,0,0.0,0,0.0,0,0,3,2,4,3,0.5,130,32.5,0.0,0.0,0.0,590.0438194444445,215.2345486111111,0.055,49.6,No major issues
+tests/data/cases/annotations.py,24,2,2.0,2,1.0,5,0,0,0,2,2,0.5,37,18.5,1.0,1.0,0.5,590.0438194444445,29.35909722222222,0.054,62.2,No major issues
+tests/data/cases/preview_hug_parens_with_braces_and_square_brackets_no_ll1.py,88,0,0.0,0,0.0,0,0,0,0,1,1,1.0,106,106.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.053,39.6,No major issues
+profiling/mix_small.py,102,0,0.0,0,0.0,0,0,0,0,1,1,1.0,102,102.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.053,39.8,No major issues
+tests/data/cases/fmtonoff4.py,26,4,1.0,1,0.0,4,0,0,0,1,1,1.0,36,36.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.053,46.6,No major issues
+tests/data/cases/cantfit.py,82,0,0.0,0,0.0,0,0,0,0,1,1,1.0,100,100.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.053,39.1,No major issues
+tests/data/cases/remove_redundant_parens_in_case_guard.py,72,0,0.0,0,0.0,0,0,0,0,1,1,1.0,114,114.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.051,39.3,No major issues
+tests/data/cases/line_ranges_fmt_off_overlap.py,16,8,1.0,1,0.0,2,0,0,0,1,1,1.0,37,37.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.051,44.6,No major issues
+tests/data/cases/raw_docstring.py,8,2,1.0,1,0.0,1,0,0,0,1,1,1.0,32,32.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.051,42.5,No major issues
+tests/data/miscellaneous/string_quotes.py,85,0,0.0,0,0.0,0,0,0,0,1,1,1.0,114,114.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.051,39.8,No major issues
+tests/data/cases/line_ranges_fmt_off.py,22,10,1.0,1,0.0,2,0,0,1,1,1,1.0,49,49.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.05,49.6,No major issues
+tests/data/cases/fmtskip_class_header_base.py,26,0,0.0,0,0.0,0,0,0,0,1,1,1.0,38,38.0,1.0,1.0,1.0,2.187013888888889,2.187013888888889,0.049,40.0,No major issues
+tests/data/cases/fmtskip2.py,14,0,0.0,0,0.0,0,0,0,0,1,1,1.0,20,20.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.047,29.3,No major issues
+tests/data/cases/line_ranges_diff_edge_case.py,10,0,0.0,0,0.0,0,0,0,0,2,2,0.5,44,22.0,1.0,0.0,0.0,590.0438194444445,25.21071759259259,0.046,34.1,No major issues
+tests/test_format.py,79,6,1.3333333333333333,2,1.0,24,0,0,9,3,3,0.3333333333333333,103,34.333333333333336,1.0,0.0,0.0,590.0438194444445,85.75396990740741,0.046,67.7,No major issues
+tests/data/cases/fmtskip5.py,18,0,0.0,0,0.0,0,0,0,0,1,1,1.0,22,22.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.046,30.1,No major issues
+tests/data/cases/python38.py,20,6,1.0,1,0.0,3,0,0,0,1,1,1.0,39,39.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.045,46.1,No major issues
+tests/data/cases/attribute_access_on_number_literals.py,40,0,0.0,0,0.0,0,0,0,0,1,1,1.0,47,47.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.044,35.0,No major issues
+tests/data/cases/pep_572_do_not_remove_parens.py,14,1,1.0,1,0.0,2,0,0,0,1,1,1.0,26,26.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.044,43.2,No major issues
+tests/data/cases/single_line_format_skip_with_multiple_comments.py,16,0,0.0,0,0.0,0,0,0,0,1,1,1.0,19,19.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.043,29.4,No major issues
+tests/data/cases/python39.py,19,5,1.0,1,0.0,4,0,0,0,1,1,1.0,28,28.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.043,45.1,No major issues
+tests/data/cases/numeric_literals_skip_underscores.py,16,0,0.0,0,0.0,0,0,0,0,1,1,1.0,19,19.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.043,29.4,No major issues
+tests/data/cases/trailing_comma_optional_parens3.py,16,0,0.0,0,0.0,0,0,0,0,1,1,1.0,21,21.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.043,29.7,No major issues
+tests/data/cases/pep_572_py310.py,12,0,0.0,0,0.0,0,0,0,0,2,1,1.0,21,10.5,0.0,1.0,0.5,590.0438194444445,589.0872106481481,0.043,36.2,No major issues
+src/black/const.py,4,0,0.0,0,0.0,0,0,3,0,1,1,1.0,4,4.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.042,30.2,No major issues
+tests/data/cases/raw_docstring_no_string_normalization.py,4,3,1.0,1,0.0,2,0,0,0,1,1,1.0,11,11.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.04,39.7,No major issues
+tests/test_no_ipynb.py,28,2,1.0,1,0.5,12,0,0,5,1,1,1.0,36,36.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.04,52.2,No major issues
+tests/data/cases/percent_precedence.py,38,0,0.0,0,0.0,0,0,0,0,1,1,1.0,41,41.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.039,34.3,No major issues
+tests/data/cases/remove_for_brackets.py,30,0,0.0,0,0.0,0,0,0,0,1,1,1.0,48,48.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.039,34.3,No major issues
+tests/data/cases/tuple_with_stmt.py,17,1,2.0,2,0.0,9,0,0,1,1,1,1.0,30,30.0,0.0,0.0,0.0,489.93497685185184,489.93497685185184,0.039,55.6,No major issues
+tests/data/cases/module_docstring_followed_by_function.py,4,2,1.0,1,0.0,2,0,0,0,1,1,1.0,10,10.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.037,39.6,No major issues
+tests/data/cases/parenthesized_context_managers.py,32,0,0.0,0,0.0,0,0,0,0,1,1,1.0,46,46.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.037,34.2,No major issues
+tests/data/cases/pattern_matching_trailing_comma.py,30,0,0.0,0,0.0,0,0,0,0,1,1,1.0,39,39.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.037,33.4,No major issues
+tests/data/cases/pattern_matching_long.py,30,0,0.0,0,0.0,0,0,0,0,1,1,1.0,34,34.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.037,32.8,No major issues
+tests/data/cases/fmtonoff2.py,21,5,1.0,1,0.8,5,0,0,1,1,1,1.0,40,40.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.037,50.0,No major issues
+tests/data/cases/numeric_literals.py,36,0,0.0,0,0.0,0,0,0,0,1,1,1.0,39,39.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.037,33.9,No major issues
+tests/data/cases/context_managers_autodetect_38.py,25,0,0.0,0,0.0,0,0,0,0,1,1,1.0,46,46.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.036,33.7,No major issues
+tests/data/cases/comments_non_breaking_space.py,21,2,1.0,1,1.0,2,0,0,1,1,1,1.0,44,44.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.036,48.9,No major issues
+tests/data/nested_gitignore_tests/root/child/a.py,0,0,0.0,0,0.0,0,0,2,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.035,28.9,No major issues
+tests/data/cases/one_element_subscript.py,22,0,0.0,0,0.0,0,0,0,0,1,1,1.0,36,36.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.035,32.4,No major issues
+tests/data/cases/context_managers_autodetect_310.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,36,36.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.035,32.1,No major issues
+tests/data/cases/fmtonoff3.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,35,35.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.035,32.0,No major issues
+tests/data/cases/context_managers_autodetect_39.py,21,0,0.0,0,0.0,0,0,0,0,1,1,1.0,34,34.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.035,32.1,No major issues
+tests/data/nested_gitignore_tests/root/a.py,0,0,0.0,0,0.0,0,0,2,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.035,28.9,No major issues
+tests/data/cases/multiline_consecutive_open_parentheses_ignore.py,28,0,0.0,0,0.0,0,0,0,0,1,1,1.0,41,41.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.034,33.5,No major issues
+tests/data/cases/fmtskip3.py,13,0,0.0,0,0.0,0,0,0,0,1,1,1.0,20,20.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.034,29.2,No major issues
+tests/data/cases/preview_cantfit_string.py,12,0,0.0,0,0.0,0,0,0,0,1,1,1.0,18,18.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.033,28.8,No major issues
+tests/data/miscellaneous/pattern_matching_invalid.py,13,0,0.0,0,0.0,0,0,0,0,1,1,1.0,18,18.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.033,28.9,No major issues
+tests/test_trans.py,59,3,1.3333333333333333,2,1.0,28,0,0,1,3,3,0.3333333333333333,77,25.666666666666668,1.0,0.0,0.0,590.0438194444445,8.209166666666667,0.033,65.1,No major issues
+tests/data/cases/context_managers_autodetect_311.py,22,0,0.0,0,0.0,0,0,0,0,1,1,1.0,38,38.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.032,32.7,No major issues
+tests/data/cases/docstring_newline.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,3,3.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.4,No major issues
+tests/data/nested_gitignore_tests/root/c.py,0,0,0.0,0,0.0,0,0,1,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,28.7,No major issues
+tests/data/nested_gitignore_tests/root/child/c.py,0,0,0.0,0,0.0,0,0,1,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,28.7,No major issues
+tests/data/nested_gitignore_tests/root/b.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.0,No major issues
+tests/data/miscellaneous/missing_final_newline.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,3,3.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.4,No major issues
+src/blib2to3/__init__.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.0,No major issues
+tests/data/cases/preview_fstring.py,1,0,0.0,0,0.0,0,0,0,0,1,1,1.0,2,2.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.3,No major issues
+tests/data/miscellaneous/invalid_header.py,2,0,0.0,0,0.0,0,0,0,0,1,1,1.0,2,2.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.5,No major issues
+tests/data/nested_gitignore_tests/root/child/b.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,1,1.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.0,No major issues
+tests/data/cases/fmtskip.py,3,0,0.0,0,0.0,0,0,0,0,1,1,1.0,3,3.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.8,No major issues
+tests/data/cases/comment_type_hint.py,1,0,0.0,0,0.0,0,0,0,0,1,1,1.0,3,3.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.03,25.5,No major issues
+tests/data/cases/fstring.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,25,25.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.029,30.9,No major issues
+tests/data/cases/tupleassign.py,11,0,0.0,0,0.0,0,0,0,0,1,1,1.0,23,23.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.029,29.5,No major issues
+tests/data/cases/pep646_typed_star_arg_type_var_tuple.py,3,1,1.0,1,1.0,2,0,0,0,1,1,1.0,8,8.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.029,39.2,No major issues
+tests/data/cases/type_aliases.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,30,30.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.029,31.6,No major issues
+tests/data/cases/type_comment_syntax_error.py,6,1,1.0,1,1.0,4,0,0,0,1,1,1.0,11,11.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.028,41.0,No major issues
+tests/conftest.py,22,2,1.0,1,1.0,13,0,0,1,1,1,1.0,28,28.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.026,50.6,No major issues
+tests/data/cases/starred_for_target.py,20,0,0.0,0,0.0,0,0,0,0,1,1,1.0,28,28.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.026,31.4,No major issues
+tests/data/cases/line_ranges_indentation.py,16,0,0.0,0,0.0,0,0,0,0,1,1,1.0,27,27.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.026,30.8,No major issues
+tests/data/cases/bracketmatch.py,10,0,0.0,0,0.0,0,0,0,0,1,1,1.0,15,15.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.025,28.3,No major issues
+tests/data/cases/fmtpass_imports.py,10,0,0.0,0,0.0,0,0,0,10,1,1,1.0,19,19.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.024,32.7,No major issues
+tests/data/cases/is_simple_lookup_for_doublestar_expression.py,10,0,0.0,0,0.0,0,0,0,0,1,1,1.0,13,13.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.023,28.1,No major issues
+tests/data/cases/module_docstring_1.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,25,25.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.023,28.9,No major issues
+tests/data/cases/backslash_before_indent.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,24,24.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.023,29.3,No major issues
+tests/data/cases/py310_pep572.py,10,0,0.0,0,0.0,0,0,0,0,1,1,1.0,13,13.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.023,28.1,No major issues
+tests/data/cases/line_ranges_unwrapping.py,12,0,0.0,0,0.0,0,0,0,0,1,1,1.0,25,25.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.023,30.0,No major issues
+src/blib2to3/pgen2/__init__.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,4,4.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.021,25.5,No major issues
+tests/data/cases/docstring_no_extra_empty_line_before_eof.py,1,0,0.0,0,0.0,0,0,0,0,1,1,1.0,4,4.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.021,25.7,No major issues
+src/black/__main__.py,2,0,0.0,0,0.0,0,0,0,1,1,1,1.0,3,3.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.021,28.6,No major issues
+src/blackd/__main__.py,2,0,0.0,0,0.0,0,0,0,1,1,1,1.0,3,3.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.021,28.6,No major issues
+tests/data/cases/trailing_comma_optional_parens2.py,9,0,0.0,0,0.0,0,0,0,0,1,1,1.0,12,12.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.021,27.8,No major issues
+tests/data/cases/linelength6.py,1,1,1.0,1,0.0,1,0,0,0,1,1,1.0,6,6.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.021,38.0,No major issues
+tests/data/cases/comments8.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,15,15.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.02,26.8,No major issues
+tests/data/miscellaneous/blackd_diff.py,5,1,1.0,1,0.0,3,0,0,0,1,1,1.0,6,6.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.02,40.1,No major issues
+tests/data/cases/fmtskip4.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,13,13.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.018,27.8,No major issues
+tests/data/cases/beginning_backslash.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,12,12.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.018,27.1,No major issues
+tests/data/cases/fmtskip9.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,8,8.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.015,26.5,No major issues
+tests/data/cases/module_docstring_4.py,2,0,0.0,0,0.0,0,0,0,0,1,1,1.0,8,8.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.015,26.2,No major issues
+tests/data/cases/power_op_newline.py,7,0,0.0,0,0.0,0,0,0,0,1,1,1.0,11,11.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.015,27.3,No major issues
+tests/data/cases/pep_572_py39.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,7,7.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,26.4,No major issues
+tests/data/cases/pep_572_slices.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,6,6.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,26.3,No major issues
+tests/data/cases/module_docstring_followed_by_class.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,10,10.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,26.8,No major issues
+tests/data/cases/module_docstring_3.py,2,0,0.0,0,0.0,0,0,0,0,1,1,1.0,7,7.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,26.1,No major issues
+tests/data/cases/line_ranges_outside_source.py,4,0,0.0,0,0.0,0,0,0,0,1,1,1.0,7,7.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,26.4,No major issues
+tests/data/cases/tricky_unicode_symbols.py,8,0,0.0,0,0.0,0,0,0,0,1,1,1.0,9,9.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,27.2,No major issues
+tests/data/cases/whitespace.py,0,0,0.0,0,0.0,0,0,0,0,1,1,1.0,6,6.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.012,25.7,No major issues
+src/black/schema.py,10,1,1.0,1,1.0,7,0,0,3,1,1,1.0,15,15.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.01,46.6,No major issues
+tests/data/cases/line_ranges_imports.py,3,0,0.0,0,0.0,0,0,0,3,1,1,1.0,9,9.0,0.0,0.0,0.0,590.0438194444445,590.0438194444445,0.006,29.9,No major issues
